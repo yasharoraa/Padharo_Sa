@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/star_rating_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/name_text_view">
+    <com.willy.ratingbar.ScaleRatingBar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/simpleRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srb_numStars="5"
+        app:srb_minimumStars="1"
+        app:srb_rating="4.5"
+        app:srb_starWidth="30dp"
+        app:srb_starHeight="30dp"
+        app:srb_starPadding="1dp"
+        app:srb_stepSize="0.5"
+        app:srb_isIndicator="true"
+        android:visibility="gone"
+
+        app:srb_clickable="false"
+        app:srb_scrollable="true"
+        app:srb_clearRatingEnabled="true"
+        android:paddingLeft="10dp"
+        app:srb_drawableEmpty="@drawable/start_empty"
+        app:srb_drawableFilled="@drawable/star_filled"
+
+        />
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/multiple_ratings_layout_container"
+        >
+        <LinearLayout
+            android:id="@+id/multiple_ratings_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="5dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/multiple_ratings_layout_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <TextView
+                    android:id="@+id/first_rating_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    tools:text="            Service"
+                    android:textSize="10sp"
+                    />
+                <com.willy.ratingbar.ScaleRatingBar
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/simpleRatingBar_first"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srb_numStars="5"
+                    app:srb_minimumStars="1"
+                    app:srb_rating="2"
+                    app:srb_starWidth="12dp"
+                    app:srb_starHeight="12dp"
+                    app:srb_starPadding="1dp"
+                    app:srb_stepSize="0.5"
+                    app:srb_isIndicator="true"
+                    app:srb_clickable="false"
+                    app:srb_scrollable="true"
+                    app:srb_clearRatingEnabled="true"
+                    android:paddingLeft="10dp"
+                    app:srb_drawableEmpty="@drawable/start_empty"
+                    app:srb_drawableFilled="@drawable/star_filled"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/multiple_ratings_layout_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/second_rating_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    tools:text="       View Point"
+                    android:textSize="10sp"
+
+
+
+                    />
+                <com.willy.ratingbar.ScaleRatingBar
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/simpleRatingBar_second"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srb_numStars="5"
+                    app:srb_minimumStars="1"
+                    app:srb_rating="2"
+                    app:srb_starWidth="12dp"
+                    app:srb_starHeight="12dp"
+                    app:srb_starPadding="1dp"
+                    app:srb_stepSize="0.5"
+                    app:srb_isIndicator="true"
+
+
+                    app:srb_clickable="false"
+                    app:srb_scrollable="true"
+                    app:srb_clearRatingEnabled="true"
+                    android:paddingLeft="10dp"
+                    app:srb_drawableEmpty="@drawable/start_empty"
+                    app:srb_drawableFilled="@drawable/star_filled"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/multiple_ratings_layout_third"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/third_rating_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    tools:text="       Cleanliness"
+                    android:textSize="10sp"
+
+
+
+                    />
+                <com.willy.ratingbar.ScaleRatingBar
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/simpleRatingBar_third"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srb_numStars="5"
+                    app:srb_minimumStars="1"
+                    app:srb_rating="2"
+                    app:srb_starWidth="12dp"
+                    app:srb_starHeight="12dp"
+                    app:srb_starPadding="1dp"
+                    app:srb_stepSize="0.5"
+                    app:srb_isIndicator="true"
+
+
+                    app:srb_clickable="false"
+                    app:srb_scrollable="true"
+                    app:srb_clearRatingEnabled="true"
+                    android:paddingLeft="10dp"
+                    app:srb_drawableEmpty="@drawable/start_empty"
+                    app:srb_drawableFilled="@drawable/star_filled"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/multiple_ratings_layout_fourth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/fourth_rating_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    tools:text="@string/title_staff_behaviour"
+                    android:textSize="10sp"
+                    />
+                <com.willy.ratingbar.ScaleRatingBar
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/simpleRatingBar_fourth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srb_numStars="5"
+                    app:srb_minimumStars="1"
+                    app:srb_rating="2"
+                    app:srb_starWidth="12dp"
+                    app:srb_starHeight="12dp"
+                    app:srb_starPadding="1dp"
+                    app:srb_stepSize="0.5"
+                    app:srb_isIndicator="true"
+
+
+                    app:srb_clickable="false"
+                    app:srb_scrollable="true"
+                    app:srb_clearRatingEnabled="true"
+                    android:paddingLeft="10dp"
+                    app:srb_drawableEmpty="@drawable/start_empty"
+                    app:srb_drawableFilled="@drawable/star_filled"
+
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+    <View
+        android:id="@+id/new_simple_view"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+
+        android:background="@color/light_grey"
+        app:layout_constraintLeft_toRightOf="@id/multiple_ratings_layout_container"
+        app:layout_constraintBottom_toBottomOf="@id/multiple_ratings_layout_container"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="2dp"
+
+        />
+    <TextView
+        android:id="@+id/over_ratings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/new_simple_view"
+
+
+        app:layout_constraintBottom_toBottomOf="@id/new_simple_view"
+        app:layout_constraintTop_toTopOf="@id/new_simple_view"
+        android:paddingLeft="8dp"
+
+        android:textSize="25sp"
+        tools:text="4.2"
+        />
+</android.support.constraint.ConstraintLayout>

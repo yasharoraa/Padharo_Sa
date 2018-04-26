@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "742419783179",
+    "firebase_url": "https://padhaosa.firebaseio.com",
+    "project_id": "padhaosa",
+    "storage_bucket": "padhaosa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742419783179:android:ae9286d2ef802d5c",
+        "android_client_info": {
+          "package_name": "team.hack.tourism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742419783179-mdtrmm9thgeeosfrklt497ag7u5r5q6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "team.hack.tourism",
+            "certificate_hash": "8f7d3ee8607c046c8b2dedca4fd93ab0fdc608a0"
+          }
+        },
+        {
+          "client_id": "742419783179-o7aa92is4qisjqr8nth2ega3tbh5htqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnexOMGesqnldnlQw3t41m-r6eh6BvokY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742419783179-o7aa92is4qisjqr8nth2ega3tbh5htqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Tourism</string>
+    <string name="title_home">Home</string>
+   <string name="title_hotel">Hotels \u0026 Restro</string>
+    <string name="title_travel">Travels</string>
+ <string name="title_hotels_toolbar">Hotels \u0026 Restaurant</string>
+    <string name="title_places">Places</string>
+    <string name="title_profile">My Profile</string>
+    <string name="call_title">Call</string>
+    <string name="dir_title">Directions</string>
+    <string name="open_title">Open</string>
+    <string name="close_title">Close</string>
+    <string name="save_title">Save</string>
+    <string name="share_title">Share</string>
+    <string name="title_open">Open</string>
+    <string name="title_closed">Closed</string>
+    <string name="title_save">Save</string>
+    <string name="title_saved">Saved</string>
+    <string name="title_service"     >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Service</string>
+ <string name="title_view_point"     >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;View Point</string>
+ <string name="title_cleanliness"    >&#160;&#160;&#160;&#160;&#160;&#160;&#160;Cleanliness</string>
+ <string name="title_staff_behaviour">Staff Behaviour</string>
+    <string name="title_driving">&#160;&#160;&#160;&#160;&#160;&#160;Driving</string>
+    <string name="title_service_travels">&#160;&#160;&#160;&#160;&#160;Service</string>
+    <string name="title_facilities">&#160;&#160;Facilities</string>
+    <string name="title_behaviour">Behaviour</string>
+    <string name="igsif">7014911222</string>
+    <string name="title_food"     >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Food</string>
+    <string name="title_facilities_hotel"     >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Facilities</string>
+    <string name="title_accomodation"    >Accommodation</string>
+    <string name="title_staff_behaviour_hotel">&#160;&#160;&#160;Staff Behaviour</string>
+    <string name="app_title">Padharo Sa</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+
+   <string name="user_name">Username</string>
+
+</resources>

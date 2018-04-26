@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.willy.ratingbar.ScaleRatingBar
+
+        android:id="@+id/top_rating_bar"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+
+        ></com.willy.ratingbar.ScaleRatingBar>
+
+    <EditText
+
+        android:id="@+id/edit_text_fullscreen"
+        app:layout_constraintTop_toBottomOf="@id/top_rating_bar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Write your opinion here........"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_fullscreen"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="#FFFFFF"
+        android:text="Submit"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
+
+
